@@ -1,0 +1,144 @@
+.container{
+    width: 92%;
+    height: 100%;
+    margin: auto;
+}
+
+
+.facebook{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    color: #0866FF;
+}
+
+
+.tagline{
+    font-family: sans-serif;
+    margin-top: -50px;
+    font-size: 30px;
+}
+
+
+.right{
+    height: 80vh;
+    width: 50%;
+
+    align-items: start;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.left{
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-left: 50px;
+}
+
+
+.gerald{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.box{
+    width: 420px;
+    height: 350px;
+
+
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+     box-shadow: 0px 1px 11px 0.1px #e1dede;
+}
+
+
+.email, .password{
+    width: 95%;
+    height: 55px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    transition: .2s ease-in-out;
+}
+
+
+.email:hover, .password:hover{
+    border: 1px solid #0866FF;
+}
+
+
+.btn{
+    width: 98%;
+    height: 55px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0866FF;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.btn:hover{
+    box-shadow: 0px 1px 11px 5px #e1dede;
+}
+
+
+.btn2{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #4CBF2C;
+    margin-top: 25px;
+    transition: .2s ease-in-out;
+}
+
+
+.btn2:hover{
+    box-shadow: 0px 1px 11px 2px #4CBF2C;
+}
+
+
+.forgot{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0866FF;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+.line{
+    height: 1px;
+    width: 95%;
+    margin-top: 10px;
+    background-color: #ccc;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .facebook{
+    display: none;
+  }
+  .tagline{
+    display: none;
+  }
+}
